@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-fruit = 'apple'
+fruit = "apple"
 print(fruit)
 fruit = "orange"
 print(fruit)
@@ -11,10 +11,10 @@ print(sentence)
 sentence = 'This string has a double quote. "Hello"'
 print(sentence)
 
-sentence = "This uses escape sequences to escape a double quote (\") in \
-a double quoted string"
+sentence = 'This uses escape sequences to escape a double quote (") in \
+a double quoted string'
 print(sentence)
 
-sentence = 'This uses a escape sequence to escape a single quote (\') in \
-a single quoted string'
+sentence = "This uses a escape sequence to escape a single quote (') in \
+a single quoted string"
 print(sentence)

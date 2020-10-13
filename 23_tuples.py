@@ -8,13 +8,26 @@ tupname = (v1, v2, ..., vN)
 tupname = (v1,)
 """
 
-months = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
+months = (
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+)
 print("Months: {}".format(months))
 
 for month in months:
     print("Month: {}".format(month))
 
-print('First Month: {}'.format(months[0]))
+print("First Month: {}".format(months[0]))
 
 # throws 'TypeError' tuple object does not support assignment
 # months[2] = 'February'
@@ -38,7 +51,7 @@ print("months_list of type {} is - {}".format(type(months_list), months_list))
 """
 iterate a tuple
 """
-print('Iterating months tuple')
+print("Iterating months tuple")
 for month in months:
     print(month)
 
@@ -48,14 +61,14 @@ at once
 """
 point2d = (3, 4)
 (x, y) = point2d
-print('2-dimensional point x = {}, y = {}'.format(x, y))
+print("2-dimensional point x = {}, y = {}".format(x, y))
 
 
 """
 assigning multiple values of a list into multiple variables
 at once
 """
-legobricks = ['1x1', '1x2', '2x2']
+legobricks = ["1x1", "1x2", "2x2"]
 (onepeg, twopegs, fourpegs) = legobricks
 print("one peg lego {}".format(onepeg))
 print("two peg lego {}".format(twopegs))

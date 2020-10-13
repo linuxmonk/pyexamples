@@ -3,15 +3,15 @@
 automatically close a file using 'with'
 """
 
-filename = '1_hello.py'
+filename = "1_hello.py"
 with open(filename) as helloworld:
-    print('is the file {} closed? {}'.format(filename, helloworld.closed))
-    print('contents:')
-    print('---------')
+    print("is the file {} closed? {}".format(filename, helloworld.closed))
+    print("contents:")
+    print("---------")
     print(helloworld.read())
-    print('---------')
+    print("---------")
 
-print('file operation on {} complete. is file closed? {}'.format(filename, helloworld.closed))
+print("file operation on {} complete. is file closed? {}".format(filename, helloworld.closed))
 
 """
 to read one line at a time there are two ways -
@@ -45,24 +45,24 @@ modes:
    fp.mode # gives the mode of the file
 """
 
-print('writing something about a cat in cat.txt')
-with open('cat.txt', 'w') as txtfile:
-    txtfile.write('cat is a pet animal\n')
-    txtfile.write('i like dogs too\n')
-  
-print('reading cat.txt')
-with open('cat.txt') as rtxtfp:
+print("writing something about a cat in cat.txt")
+with open("cat.txt", "w") as txtfile:
+    txtfile.write("cat is a pet animal\n")
+    txtfile.write("i like dogs too\n")
+
+print("reading cat.txt")
+with open("cat.txt") as rtxtfp:
     print(rtxtfp.read())
 
 
 """
 Use exceptions when dealing with file operations
 """
-nofname = 'nofile.txt'
+nofname = "nofile.txt"
 try:
-    print('opening nofile.txt')
+    print("opening nofile.txt")
     fp = open(nofname)
-    print('opeened nofile.txt, reading contents')
+    print("opeened nofile.txt, reading contents")
     contents = fp.read()
 except:
-    print('file does not exist!')
+    print("file does not exist!")

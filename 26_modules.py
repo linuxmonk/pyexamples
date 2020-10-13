@@ -32,6 +32,7 @@ where python loads the modules see
 """
 
 import sys
+
 print(sys.path)
 
 """
@@ -40,8 +41,6 @@ to modify the module serach path there are two ways -
 2. Set the PYTHONPATH environment variable
 """
 
-print('Module path:')
+print("Module path:")
 for path in sys.path:
     print(path)
-
-

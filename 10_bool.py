@@ -28,6 +28,6 @@ Boolean logic operators are
   or
   not
 """
-print('2 > 1 and 2 >= 2: {}'.format(2 > 1 and 2 >= 2))
+print("2 > 1 and 2 >= 2: {}".format(2 > 1 and 2 >= 2))
 
 """ Order of operations can be controlled using parenthesis """

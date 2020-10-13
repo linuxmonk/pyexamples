@@ -9,6 +9,6 @@
 # objects can have methods
 # like object.method()
 
-fruit = 'Apple'
+fruit = "Apple"
 print(fruit.lower())
 print(fruit.upper())

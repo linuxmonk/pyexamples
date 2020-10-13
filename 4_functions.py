@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
 # built in function 'print'
-fruit = 'apple'
+fruit = "apple"
 print(fruit)
-print('orange')
+print("orange")
 
 # built in function 'len'
-fruit = 'apple'
+fruit = "apple"
 fruit_len = len(fruit)
 print(fruit, fruit_len)
-
-

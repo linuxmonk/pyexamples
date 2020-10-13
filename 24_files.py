@@ -5,8 +5,8 @@ open a file using builtin 'open()' function
 """
 
 # cat the contents of a file
-filename = '1_hello.py'
-print('Read contents from {} and write to screen'.format(filename))
+filename = "1_hello.py"
+print("Read contents from {} and write to screen".format(filename))
 helloworld = open(filename)
 contents = helloworld.read()
 print(contents)
@@ -20,10 +20,10 @@ seek(offset) resets the file pointer to the offset
 tell() returns the current offset/position in the file
 """
 
-print('Read more contents from {}'.format(filename))
+print("Read more contents from {}".format(filename))
 morecontents = helloworld.read()
 print(morecontents)
-print('current file pointer position is {}'.format(helloworld.tell()))
+print("current file pointer position is {}".format(helloworld.tell()))
 
 """
 read part of a file using read(N)
